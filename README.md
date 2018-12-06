@@ -1,3 +1,6 @@
+#IMPORTANT
+Form correct work project need to install JSON Server! `npm install -g json-server`
+
 # MyCv
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
