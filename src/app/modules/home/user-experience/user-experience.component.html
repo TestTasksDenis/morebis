@@ -1,0 +1,12 @@
+<section class="user-experience block">
+  <h4>Experience</h4>
+  <div class="job" *ngFor="let job of experience">
+    <h3 class="job__title">{{ job.jobName }}</h3>
+    <h4 class="job__company">{{ job.jobCompany }}</h4>
+    <p class="job__period">{{ job.jobPeriod }}</p>
+  </div>
+  <chart [type]="type" [data]="data" [options]="options" class="chart"></chart>
+</section>
+
+
+

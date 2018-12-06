@@ -1,0 +1,28 @@
+.user-achievements {
+  .achievement {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .achievement__name {
+      color: #1870D2;
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .achievement__link {
+      color: #1870D2;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .achievement__period {
+      font-size: 12px;
+      color: #9C9FA4;
+    }
+  }
+}

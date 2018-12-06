@@ -1,0 +1,28 @@
+.main-nav {
+  margin-left: 35px;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 30px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: #434F74;
+        font: {
+          size: 14px;
+          weight: bold;
+        };
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

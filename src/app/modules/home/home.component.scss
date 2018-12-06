@@ -1,0 +1,13 @@
+.user {
+  display: flex;
+
+  app-sidebar {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+
+  .user__content {
+    flex-basis: 100%;
+  }
+}

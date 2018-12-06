@@ -1,0 +1,25 @@
+<section class="user-contacts block">
+  <h4>My contacts</h4>
+  <table>
+    <tr>
+      <td>Phone</td>
+      <td><a href="tel:{{ userContacts.phone }}">{{ userContacts.phone }}</a></td>
+    </tr>
+    <tr>
+      <td>E-mail</td>
+      <td><a href="mailto:{{ userContacts.email }}">{{ userContacts.email }}</a></td>
+    </tr>
+    <tr>
+      <td>Telegram</td>
+      <td><a href="{{ userContacts.telegram }}">{{ userContacts.telegram }}</a></td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td><a href="{{ userContacts.social }}">{{ userContacts.social }}</a></td>
+    </tr>
+    <tr>
+      <td>Github</td>
+      <td><a href="{{ userContacts.github }}">{{ userContacts.github }}</a></td>
+    </tr>
+  </table>
+</section>

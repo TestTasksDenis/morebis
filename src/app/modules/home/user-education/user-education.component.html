@@ -1,0 +1,10 @@
+<section class="user-education block">
+  <h4>Experience</h4>
+  <div class="school" *ngFor="let education of educations">
+    <h3 class="school__title">{{ education.title }}</h3>
+    <h4 class="job__status">{{ education.status }}</h4>
+    <p class="job__department">{{ education.department }}</p>
+    <p class="job__faculty">{{ education.faculty }}</p>
+    <p class="job__period">{{ education.period }}</p>
+  </div>
+</section>

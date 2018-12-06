@@ -1,0 +1,25 @@
+.user-contacts {
+  table {
+    tr {
+      td {
+        color: #5E5E5E;
+        font: {
+          weight: bold;
+        };
+        height: 30px;
+
+        &:nth-child(odd) {
+          padding-right: 45px;
+        }
+
+        a {
+          color: #0080B1;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

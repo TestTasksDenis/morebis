@@ -1,0 +1,31 @@
+.user-education {
+  .school {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .school__title {
+      color: #1870D2;
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .job__status {
+      color: #3A404B;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .job__department,
+    .job__faculty,
+    .job__period {
+      font-size: 12px;
+      color: #9C9FA4;
+      line-height: 18px;
+    }
+  }
+}

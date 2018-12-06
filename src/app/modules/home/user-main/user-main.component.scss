@@ -1,0 +1,23 @@
+.user-main {
+  background: #FFFFFF;
+  border: 1px solid #E6E8EB;
+  padding: 15px;
+
+  table {
+    margin-bottom: 30px;
+
+    tr {
+      td {
+        height: 32px;
+
+        &:first-child {
+          width: 200px;
+        }
+      }
+    }
+  }
+
+  .summary {
+    line-height: 24px;
+  }
+}

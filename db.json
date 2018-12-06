@@ -1,0 +1,96 @@
+{
+  "user": {
+    "id": 1,
+    "firstName": "Denis",
+    "lastName": "Lubchenko",
+    "position": "Middle Front-End Developer",
+    "birth": "December 10, 1988 (30 years)",
+    "location": "Ukraine, Odessa",
+    "maritalStatus": "Not maried",
+    "languages": "English (Intermediate), Russian (Native)",
+    "salaryExpectations": "1000$",
+    "summary": "I’m looking for a position of a Front-End Developer in Odessa. I have a lot of practice in website development, good knowledge of programming language JavaScript. I have experience developing high load, responsive web sites, hardworking person who likes digging in the deep of the problem, teamplayer.",
+    "contacts": {
+      "phone": "+38 (097) 490 19 09",
+      "email": "rexar1988@gmail.com",
+      "telegram": "https://t.me/rexar1988",
+      "social": "https://www.linkedin.com/feed/",
+      "github": "https://github.com/rexar1988"
+    },
+    "experience": [
+      {
+        "jobName": "Angular Front-End Dev.",
+        "jobCompany": "Provectus",
+        "jobPeriod": "August 2018 – December 2018 (Internship)",
+        "barChartLabels": "Provectus",
+        "barChartData": 0.5
+      },
+      {
+        "jobName": "Full-Stack Dev",
+        "jobCompany": "«Mart Studio»",
+        "jobPeriod": "February 2016 – present",
+        "barChartLabels": "«Mart Studio»",
+        "barChartData": 4
+      },
+      {
+        "jobName": "Design/Full Stack Dev.",
+        "jobCompany": "Denis Vodonaev Studio (Freelance, remote)",
+        "jobPeriod": "September 2015 – 2017",
+        "barChartLabels": "Denis Vodonaev Studio (Freelance, remote)",
+        "barChartData": 2
+      },
+      {
+        "jobName": "Front-End Dev.",
+        "jobCompany": "«SourceX»",
+        "jobPeriod": "February 2013 – February 2016",
+        "barChartLabels": "«SourceX»",
+        "barChartData": 1
+      }
+    ],
+    "education": [
+      {
+        "title": "Donetsk Technical College of Industrial Automation",
+        "faculty": "AES",
+        "department": "Authomatic network",
+        "formStudy": "Full-time",
+        "status": "Junior Specialist",
+        "period": "2007 – 2010"
+      },
+      {
+        "title": "Odessa National Academy of Telecommunications. Popova",
+        "faculty": "Telecommunications",
+        "department": "Mobile connection",
+        "formStudy": "Full-time",
+        "status": "Specialist",
+        "jobPeriod": "2010 – 2013"
+      }
+    ],
+    "achievements": [
+      {
+        "name": "Hillel. Front-End Pro:",
+        "period": "2018 May – 2018 September",
+        "link": "https://certificate.ithillel.ua/view/HISO65273974"
+      },
+      {
+        "name": "Hillel. Design Basics",
+        "period": "2018 November – 2019 February"
+      },
+      {
+        "name": "Provectus Internship",
+        "period": "2018 August – 2018 December"
+      }
+    ],
+    "skills": {
+      "doughnutChartLabels": [
+        "Web Design (Adobe Illustrator, Adobe Photoshop, Figma)",
+        "Markup (HTML5, CSS, SASS)",
+        "JavaScript",
+        "Angular 2+",
+        "Webpack, Gulp",
+        "Jira, Scrum, Agile",
+        "Git (Git flow), SVN"
+        ],
+      "doughnutChartData": [3, 5, 3, 1.5, 2, 1, 4]
+    }
+  }
+}

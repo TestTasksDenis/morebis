@@ -1,0 +1,8 @@
+<section class="user-achievements block">
+  <h4>Achievements</h4>
+  <div class="achievement" *ngFor="let achievement of achievements">
+    <h4 class="achievement__name">{{ achievement.name }}</h4>
+    <h3 class="achievement__period">{{ achievement.period }}</h3>
+    <a *ngIf="achievement.link" class="achievement__link" href="{{ achievement.link }}">Смотреть</a>
+  </div>
+</section>
