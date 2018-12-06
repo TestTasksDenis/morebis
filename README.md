@@ -1,5 +1,5 @@
 #IMPORTANT
-Form correct work project need to install JSON Server! `npm install -g json-server`
+For correct work need to install JSON Server! `npm install -g json-server`
 
 # MyCv
 
